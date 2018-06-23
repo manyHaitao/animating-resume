@@ -24,11 +24,11 @@
         fullStyle: [
           `/*
 * Inspired by http://strml.net/
-* 大家好，我是方方
-* 二月了，好多公司都在招聘
-* 你是不是也在准备简历呀。
-* 说做就做，我也来写一份简历！
+* 大家好，我是海涛
+* 六月份了，天气酷热，大家要吃冰镇西瓜降暑阿。
+* 下面就是我为大家准备的降暑简历！
 */
+
 
 /* 首先给所有元素加上过渡效果 */
 * {
@@ -130,34 +130,75 @@ html{
         currentMarkdown: '',
         fullMarkdown: `方应杭
 ----
+>-男 | 1991年9月
 
-资深前端工程师，资深前端讲师
-现在在 [饥人谷](http://jirengu.com) 教前端课程。
+>-籍贯：河北保定 | 现居住于北京-朝阳区
+
+>-Tel : 13021003665
+
+>-E-mail：13021003665@163.com 
+
+>-求职意向: iOS开发工程师
+
+教育经历
+----
+>2011/09-2015/06 扬州大学 微电子 统招本科
 
 技能
 ----
 
-* 前端开发
-* Rails 开发
-* Node.js 开发
-* 前端授课
+* iOS 开发
+* NativeScript 混合开发
+* 前端 开发
 
 工作经历
 ----
 
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
+1. 北京有序科技有限公司
 
-链接
+>工作职责：
+  
+>1、主要负责管有方和管有账的开发、持续优化以及维护的工作；
+         
+>2、熟练使用NativeScript、Angular+TypeScript、Bootstrap、Swagger、Jenkins、es6、webpack等构建项目，使用git来管理项目版本；
+          
+>3、提取公共组件，封装公共方法，周期性review并优化项目代码，减少技术债；
+          
+>4、负责项目的打包、发布以及线上管理工作，保证项目正常运行；
+	
+>5、跟进项目迭代，与产品讨论需求，提高用户体验；
+
+2. 智慧树
+
+>工作职责：
+
+>1、负责智慧树三端（家长端、教师端和园长端）iOS App 的开发；
+          
+>2、和后端沟通协作定义接口的字段与规范；
+          
+>3、参与定制产品功能，提出解决方案，并实现功能； 
+
+3. 阿拉丁控股集团
+
+>工作职责：
+
+>1、负责铛铛（公众圈、资讯和IM）iOS端App的开发；
+
+>2、熟练使用Objective-C、SDWebImage、AFNetworking等进行页面和功能的开发；
+
+>3、负责项目打包发布以及后续优化； 
+
+
+总结
 ----
 
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
 
-> 如果你喜欢这个效果，
-Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
+参考
+----
+
+* [pen#JoVrdw](https://codepen.io/jakealbaugh/full/JoVrdw)
+* [STRML.net](STRML.net)
+
 
 `
       }
