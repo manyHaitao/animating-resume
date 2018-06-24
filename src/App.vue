@@ -26,6 +26,10 @@ export default {
 * Inspired by http://strml.net/
 * 大家好，我是海涛
 * 夏天了，天气酷热，大家要吃冰镇西瓜降暑阿。
+* 拿好西瓜，我开始了
+* 1..
+* 2..
+* 3..
 */
 
 /* 首先给所有元素加上过渡效果 */
@@ -104,8 +108,8 @@ html{
   counter-reset: section;
 }
 .resumeEditor ol li::before {
-  counter-increment: section;
-  content: counters(section, ".") " ";
+  // counter-increment: section;
+  // content: counters(section, ".") " ";
   margin-right: .5em;
 }
 .resumeEditor blockquote {
@@ -127,7 +131,7 @@ html{
 
 >-E-mail：13021003665@163.com 
 
->-求职意向: iOS开发工程师
+>-求职意向: Web/iOS开发工程师
 
 教育经历
 ----

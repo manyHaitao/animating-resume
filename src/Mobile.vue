@@ -18,7 +18,7 @@
     },
     data() {
       return {
-        interval: 40,
+        interval: 4,
         currentStyle: '',
         enableHtml: false,
         fullStyle: [
@@ -26,7 +26,10 @@
 * Inspired by http://strml.net/
 * 大家好，我是海涛
 * 夏天了，天气酷热，大家要吃冰镇西瓜降暑阿。
-* 
+* 拿好西瓜，我开始了
+* 1..
+* 2..
+* 3..
 */
 
 
@@ -37,7 +40,7 @@
 /* 白色背景太单调了，我们来点背景 */
 html {
   color: rgb(222,222,222);
-  background: rgb(0,43,54);
+  background: rgb(15, 101, 162);
 }
 /* 文字离边框太近了 */
 .styleEditor {
@@ -80,7 +83,7 @@ html{
   position: fixed;
   top: 50%; left: 0;
   padding: .5em;  margin: 2.5vh;
-  width: 95vw; height: 45vh;
+  width: 90vw; height: 45vh;
   border: 1px solid;
   background: white; color: #222;
   overflow: auto;
@@ -93,10 +96,21 @@ html{
 /* 这个简历好像差点什么
  * 对了，这是 Markdown 格式的，我需要变成对 HR 更友好的格式
  * 简单，用开源工具翻译成 HTML 就行了
+ * 
  */
 `
           ,
           `
+/* 对了，你可能在用手机看吧
+ * 那我再调整下大小
+ */
+.styleEditor {
+  height: 15vh;
+}
+.resumeEditor {
+  top: 20%;
+  height: 80vh;
+}
 /* 再对 HTML 加点样式 */
 .resumeEditor{
   padding: 2em;
@@ -117,8 +131,8 @@ html{
   counter-reset: section;
 }
 .resumeEditor ol li::before {
-  counter-increment: section;
-  content: counters(section, ".") " ";
+  // counter-increment: section;
+  // content: counters(section, ".") " ";
   margin-right: .5em;
 }
 .resumeEditor blockquote {
@@ -128,7 +142,7 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
+        fullMarkdown: `杨海涛
 ----
 >-男 | 1991年9月
 
@@ -138,7 +152,7 @@ html{
 
 >-E-mail：13021003665@163.com 
 
->-求职意向: iOS开发工程师
+>-求职意向: 求职意向: Web/iOS开发工程师
 
 教育经历
 ----
