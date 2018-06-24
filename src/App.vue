@@ -26,7 +26,6 @@ export default {
 * Inspired by http://strml.net/
 * 大家好，我是海涛
 * 夏天了，天气酷热，大家要吃冰镇西瓜降暑阿。
-* 
 */
 
 /* 首先给所有元素加上过渡效果 */
