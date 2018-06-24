@@ -18,7 +18,7 @@
     },
     data() {
       return {
-        interval: 4,
+        interval: 40,
         currentStyle: '',
         enableHtml: false,
         fullStyle: [
@@ -105,11 +105,11 @@ html{
  * 那我再调整下大小
  */
 .styleEditor {
-  height: 15vh;
+  height: 25vh;
 }
 .resumeEditor {
-  top: 20%;
-  height: 80vh;
+  top: 28%;
+  height: 70vh;
 }
 /* 再对 HTML 加点样式 */
 .resumeEditor{
